@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d35c50f6-4687-4202-9514-de98c91b76e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MultiThreading/StringReverseThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultiThreading/SynchronizationWithLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RMICallbacks/CallbackClientImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RMICallbacks/CallbackClientInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RMICallbacks/CallbackServerInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RMICallbacks/TextScramblerClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RMICallbacks/TextScramblerInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RMICallbacks/TextScramblerServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CORBA/Hello.idl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tutorial_3_JAVA RMI2.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Tutorial_3_JAVA RMI2.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tutorials/META-INF/Tutorials.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RMI/Client2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UDP/UDPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UDP/UDPServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +48,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -66,10 +59,29 @@
       <recent name="RMICallbacks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SynchronizationWithLock">
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution" />
+  <component name="RunManager" selected="Application.HelloServer">
+    <configuration name="HelloServer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CORBA.HelloApp.HelloServer" />
       <module name="Tutorials" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CORBA.HelloApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CORBA.HelloApp.HelloServer" />
+      <module name="Tutorials" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CORBA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -113,26 +125,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UDPServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UDP.UDPServer" />
-      <module name="Tutorials" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="UDP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.HelloServer" />
+      <item itemvalue="Application.HelloServer (1)" />
+      <item itemvalue="Application.SyncCounter" />
+      <item itemvalue="Application.SynchronizationWithLock" />
+      <item itemvalue="Application.UDPClient" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HelloServer" />
+        <item itemvalue="Application.HelloServer (1)" />
         <item itemvalue="Application.SynchronizationWithLock" />
         <item itemvalue="Application.SyncCounter" />
         <item itemvalue="Application.UDPClient" />
-        <item itemvalue="Application.UDPServer" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -157,6 +163,7 @@
       <workItem from="1591469932676" duration="2451000" />
       <workItem from="1591478584622" duration="1774000" />
       <workItem from="1591483083366" duration="1003000" />
+      <workItem from="1591859048169" duration="9039000" />
     </task>
     <servers />
   </component>
@@ -164,45 +171,62 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="653" y="210" key="#com.intellij.ide.util.MemberChooser" timestamp="1591483719340">
+    <state x="519" y="171" key="#HelloServer" timestamp="1591918661245">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state x="519" y="171" key="#HelloServer/45.-1057.1920.1057/0.23.1680.949@0.23.1680.949" timestamp="1591918661245" />
+    <state x="578" y="272" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1591905647246">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state x="578" y="272" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/45.-1057.1920.1057/0.23.1680.949@0.23.1680.949" timestamp="1591905647246" />
+    <state x="304" y="161" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591914624824">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state x="304" y="161" key="#com.intellij.execution.impl.EditConfigurationsDialog/45.-1057.1920.1057/0.23.1680.949@0.23.1680.949" timestamp="1591914624824" />
+    <state x="628" y="211" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1591918642138">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state x="628" y="211" key="#com.intellij.ide.macro.MacrosDialog/45.-1057.1920.1057/0.23.1680.949@0.23.1680.949" timestamp="1591918642138" />
+    <state x="653" y="210" key="#com.intellij.ide.util.MemberChooser" timestamp="1591862336724">
       <screen x="0" y="23" width="1680" height="949" />
     </state>
     <state x="653" y="210" key="#com.intellij.ide.util.MemberChooser/-103.-1057.1920.1057/0.23.1680.949@0.23.1680.949" timestamp="1591483719340" />
-    <state width="1638" height="271" key="GridCell.Tab.0.bottom" timestamp="1591477214776">
+    <state x="653" y="210" key="#com.intellij.ide.util.MemberChooser/45.-1057.1920.1057/0.23.1680.949@0.23.1680.949" timestamp="1591862336724" />
+    <state x="577" y="291" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1591918656237">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state x="577" y="291" key="#com.intellij.ide.util.TreeClassChooserDialog/45.-1057.1920.1057/0.23.1680.949@0.23.1680.949" timestamp="1591918656237" />
+    <state x="578" y="253" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591905186578">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state x="578" y="253" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/45.-1057.1920.1057/0.23.1680.949@0.23.1680.949" timestamp="1591905186578" />
+    <state width="1616" height="269" key="GridCell.Tab.0.bottom" timestamp="1591914435305">
       <screen x="0" y="23" width="1680" height="949" />
     </state>
     <state width="1638" height="271" key="GridCell.Tab.0.bottom/-103.-1057.1920.1057/0.23.1680.949@0.23.1680.949" timestamp="1591477214776" />
     <state width="1638" height="271" key="GridCell.Tab.0.bottom/0.23.1680.949@0.23.1680.949" timestamp="1591470517762" />
-    <state width="1638" height="271" key="GridCell.Tab.0.center" timestamp="1591477214775">
+    <state width="1616" height="269" key="GridCell.Tab.0.bottom/45.-1057.1920.1057/0.23.1680.949@0.23.1680.949" timestamp="1591914435305" />
+    <state width="1616" height="269" key="GridCell.Tab.0.center" timestamp="1591914435304">
       <screen x="0" y="23" width="1680" height="949" />
     </state>
     <state width="1638" height="271" key="GridCell.Tab.0.center/-103.-1057.1920.1057/0.23.1680.949@0.23.1680.949" timestamp="1591477214775" />
     <state width="1638" height="271" key="GridCell.Tab.0.center/0.23.1680.949@0.23.1680.949" timestamp="1591470517761" />
-    <state width="1638" height="271" key="GridCell.Tab.0.left" timestamp="1591477214775">
+    <state width="1616" height="269" key="GridCell.Tab.0.center/45.-1057.1920.1057/0.23.1680.949@0.23.1680.949" timestamp="1591914435304" />
+    <state width="1616" height="269" key="GridCell.Tab.0.left" timestamp="1591914435304">
       <screen x="0" y="23" width="1680" height="949" />
     </state>
     <state width="1638" height="271" key="GridCell.Tab.0.left/-103.-1057.1920.1057/0.23.1680.949@0.23.1680.949" timestamp="1591477214775" />
     <state width="1638" height="271" key="GridCell.Tab.0.left/0.23.1680.949@0.23.1680.949" timestamp="1591470517761" />
-    <state width="1638" height="271" key="GridCell.Tab.0.right" timestamp="1591477214776">
+    <state width="1616" height="269" key="GridCell.Tab.0.left/45.-1057.1920.1057/0.23.1680.949@0.23.1680.949" timestamp="1591914435304" />
+    <state width="1616" height="269" key="GridCell.Tab.0.right" timestamp="1591914435304">
       <screen x="0" y="23" width="1680" height="949" />
     </state>
     <state width="1638" height="271" key="GridCell.Tab.0.right/-103.-1057.1920.1057/0.23.1680.949@0.23.1680.949" timestamp="1591477214776" />
     <state width="1638" height="271" key="GridCell.Tab.0.right/0.23.1680.949@0.23.1680.949" timestamp="1591470517762" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <state width="1616" height="269" key="GridCell.Tab.0.right/45.-1057.1920.1057/0.23.1680.949@0.23.1680.949" timestamp="1591914435304" />
+    <state x="328" y="80" key="SettingsEditor" timestamp="1591861886576">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state x="328" y="80" key="SettingsEditor/45.-1057.1920.1057/0.23.1680.949@0.23.1680.949" timestamp="1591861886576" />
   </component>
 </project>
