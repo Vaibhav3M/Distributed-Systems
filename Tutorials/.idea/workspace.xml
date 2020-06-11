@@ -2,20 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d35c50f6-4687-4202-9514-de98c91b76e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/RMI/AddImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RMI/AddInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RMI/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RMI/Client2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RMI/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RMI/TextScramblerClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RMI/TextScramblerInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RMI/TextScramblerServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TCP/TCPClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TCP/TCPServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MultiThreading/StringReverseThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MultiThreading/SynchronizationWithLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RMICallbacks/CallbackClientImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RMICallbacks/CallbackClientInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RMICallbacks/CallbackServerInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RMICallbacks/TextScramblerClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RMICallbacks/TextScramblerInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RMICallbacks/TextScramblerServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutorial_3_JAVA RMI2.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Tutorial_3_JAVA RMI2.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tutorials/META-INF/Tutorials.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RMI/Client2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UDP/UDPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UDP/UDPServer.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,46 +23,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/RMI/TextScramblerInterface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/RMI/TextScramblerServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="18" column="32" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/RMI/TextScramblerClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="33" column="73" selection-start-line="33" selection-start-column="73" selection-end-line="33" selection-end-column="73" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -84,66 +44,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/MultiThreading.java" />
-        <option value="$PROJECT_DIR$/src/MultiThreading_1.java" />
-        <option value="$PROJECT_DIR$/src/MultiThreading/MultiThreading_2.java" />
-        <option value="$PROJECT_DIR$/src/MultiThreading/MultiThreading_3.java" />
-        <option value="$PROJECT_DIR$/src/MultiThreading/MultiThreading_1.java" />
-        <option value="$PROJECT_DIR$/src/MultiThreading/SyncCounter.java" />
-        <option value="$PROJECT_DIR$/src/UDP/UDPServer.java" />
-        <option value="$PROJECT_DIR$/src/UDP/UDPClient.java" />
-        <option value="$PROJECT_DIR$/src/TCP/TCPClient.java" />
-        <option value="$PROJECT_DIR$/src/TCP/TCPServer.java" />
-        <option value="$PROJECT_DIR$/src/RMI/AddInterface.java" />
-        <option value="$PROJECT_DIR$/src/RMI/AddImpl.java" />
-        <option value="$PROJECT_DIR$/src/RMI/Client2.java" />
-        <option value="$PROJECT_DIR$/src/RMI/Server.java" />
-        <option value="$PROJECT_DIR$/src/RMI/Client.java" />
-        <option value="$PROJECT_DIR$/src/RMI/TextScramblerInterface.java" />
-        <option value="$PROJECT_DIR$/src/RMI/TextScramblerServer.java" />
-        <option value="$PROJECT_DIR$/src/RMI/TextScramblerClient.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1680" />
-    <option name="height" value="949" />
-  </component>
+  <component name="ProjectId" id="1cwE3LEH6C9O3T13w9U88Pau94p" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="DS-Tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Tutorials" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DS-Tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Tutorials" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DS-Tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Tutorials" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="RMI" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -155,25 +61,25 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="RMICallbacks" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.TextScramblerClient">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RMI.Client" />
+  <component name="RunManager" selected="Application.SynchronizationWithLock">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
+      <module name="Tutorials" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SyncCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiThreading.SyncCounter" />
       <module name="Tutorials" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RMI.*" />
+          <option name="PATTERN" value="MultiThreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RMI.Server" />
+    <configuration name="SynchronizationWithLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiThreading.SynchronizationWithLock" />
       <module name="Tutorials" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RMI.*" />
+          <option name="PATTERN" value="MultiThreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TCPClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TCP.TCPClient" />
+    <configuration name="UDPClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UDP.UDPClient" />
       <module name="Tutorials" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TCP.*" />
+          <option name="PATTERN" value="UDP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -207,25 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextScramblerClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RMI.TextScramblerClient" />
+    <configuration name="UDPServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UDP.UDPServer" />
       <module name="Tutorials" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RMI.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TextScramblerServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RMI.TextScramblerServer" />
-      <module name="Tutorials" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="RMI.*" />
+          <option name="PATTERN" value="UDP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -235,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TextScramblerClient" />
-        <item itemvalue="Application.TextScramblerServer" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Server" />
-        <item itemvalue="Application.TCPClient" />
+        <item itemvalue="Application.SynchronizationWithLock" />
+        <item itemvalue="Application.SyncCounter" />
+        <item itemvalue="Application.UDPClient" />
+        <item itemvalue="Application.UDPServer" />
+        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -255,241 +148,46 @@
       <updated>1590035852937</updated>
       <workItem from="1590035855499" duration="3666000" />
       <workItem from="1590177834650" duration="4720000" />
-      <workItem from="1590370651831" duration="4339000" />
+      <workItem from="1590370651831" duration="4465000" />
+      <workItem from="1590435030992" duration="8936000" />
+      <workItem from="1591250002034" duration="2391000" />
+      <workItem from="1591297756230" duration="800000" />
+      <workItem from="1591406874454" duration="324000" />
+      <workItem from="1591431056207" duration="284000" />
+      <workItem from="1591469932676" duration="2451000" />
+      <workItem from="1591478584622" duration="1774000" />
+      <workItem from="1591483083366" duration="1003000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12725000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="949" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="Capture Tool" order="1" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Designer" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" weight="0.21672772" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="ConsoleMavenPlugin" order="0" />
-      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info anchor="bottom" id="Flutter Performance" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Stack trace to UML" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Message" order="8" />
-      <window_info anchor="bottom" id="Find" order="9" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.33292383" />
-      <window_info anchor="bottom" id="Debug" order="11" weight="0.39729398" />
-      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="14" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.3280098" />
-      <window_info anchor="right" id="PlantUML" order="0" />
-      <window_info anchor="right" id="Palette" order="1" />
-      <window_info anchor="right" id="Maven-2 Build" order="2" />
-      <window_info anchor="right" id="Flutter Inspector" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Flutter Outline" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Maven" order="9" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="10" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="11" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="12" weight="0.25" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="Capture Tool" order="1" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Designer" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.21672772" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="ConsoleMavenPlugin" order="0" />
-      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info anchor="bottom" id="Flutter Performance" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Stack trace to UML" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Message" order="8" />
-      <window_info anchor="bottom" id="Find" order="9" />
-      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.16584766" />
-      <window_info anchor="bottom" id="Debug" order="11" weight="0.39729398" />
-      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="14" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.32899022" />
-      <window_info anchor="right" id="PlantUML" order="0" />
-      <window_info anchor="right" id="Palette" order="1" />
-      <window_info anchor="right" id="Maven-2 Build" order="2" />
-      <window_info anchor="right" id="Flutter Inspector" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Flutter Outline" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Maven" order="9" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="10" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="11" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="12" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MultiThreading/MultiThreading_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MultiThreading/MultiThreading_2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="28" column="91" selection-start-line="28" selection-start-column="91" selection-end-line="28" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MultiThreading/MultiThreading_3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" selection-start-line="2" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MultiThreading/SyncCounter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UDP/UDPServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UDP/UDPClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TCP/TCPClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="31" column="56" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TCP/TCPServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RMI/Client2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RMI/AddInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RMI/AddImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RMI/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RMI/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RMI/TextScramblerInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RMI/TextScramblerServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RMI/TextScramblerClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="33" column="73" selection-start-line="33" selection-start-column="73" selection-end-line="33" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="653" y="210" key="#com.intellij.ide.util.MemberChooser" timestamp="1591483719340">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state x="653" y="210" key="#com.intellij.ide.util.MemberChooser/-103.-1057.1920.1057/0.23.1680.949@0.23.1680.949" timestamp="1591483719340" />
+    <state width="1638" height="271" key="GridCell.Tab.0.bottom" timestamp="1591477214776">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state width="1638" height="271" key="GridCell.Tab.0.bottom/-103.-1057.1920.1057/0.23.1680.949@0.23.1680.949" timestamp="1591477214776" />
+    <state width="1638" height="271" key="GridCell.Tab.0.bottom/0.23.1680.949@0.23.1680.949" timestamp="1591470517762" />
+    <state width="1638" height="271" key="GridCell.Tab.0.center" timestamp="1591477214775">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state width="1638" height="271" key="GridCell.Tab.0.center/-103.-1057.1920.1057/0.23.1680.949@0.23.1680.949" timestamp="1591477214775" />
+    <state width="1638" height="271" key="GridCell.Tab.0.center/0.23.1680.949@0.23.1680.949" timestamp="1591470517761" />
+    <state width="1638" height="271" key="GridCell.Tab.0.left" timestamp="1591477214775">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state width="1638" height="271" key="GridCell.Tab.0.left/-103.-1057.1920.1057/0.23.1680.949@0.23.1680.949" timestamp="1591477214775" />
+    <state width="1638" height="271" key="GridCell.Tab.0.left/0.23.1680.949@0.23.1680.949" timestamp="1591470517761" />
+    <state width="1638" height="271" key="GridCell.Tab.0.right" timestamp="1591477214776">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state width="1638" height="271" key="GridCell.Tab.0.right/-103.-1057.1920.1057/0.23.1680.949@0.23.1680.949" timestamp="1591477214776" />
+    <state width="1638" height="271" key="GridCell.Tab.0.right/0.23.1680.949@0.23.1680.949" timestamp="1591470517762" />
   </component>
   <component name="masterDetails">
     <states>
